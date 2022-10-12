@@ -14,7 +14,6 @@ img {
 #top2 {
     border-radius: 60px;
     border: 2px solid black;
-    
 }
 
 .gridcontainer1 {
@@ -30,19 +29,86 @@ img {
 .line2 {
     border-left: 2.5px solid black;
 }
-
 .gridcontainer2 {
     width: 100%;
     height: 40px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
-
 .line4 {
     border-top: 5px solid black;
-    border-left: 5px solid black;
+    border-left: 2.5px solid black;
 }
 .line5 {
     border-top: 5px solid black;
-    border-right: 5px solid black;
+    border-right: 2.5px solid black;
+}
+.line3 {
+    border-right: 2.5px solid black;
+}
+.line6 {
+    border-left: 2.5px solid black;
+}
+#pai {
+    border-radius: 60px;
+    border: 2px solid black;
+    padding: 10px;
+}
+#mae {border-radius: 60px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.gridcontainer3 {
+    height: 144px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+.gridcontainer4 {
+    width: 100%;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.line7 {
+    border-right: 2.5px solid black;
+}
+.line8 {
+    border-left: 2.5px solid black;
+}
+.line9 {
+    border-right: 2.5px solid black;
+}
+.line10 {
+    border-left: 2.5px solid black;
+}
+
+.gridcontainer5 {
+    width: 100%;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 15% 20% 30% 20% 15%;
+}
+
+.line11 {
+    border-right: 2.5px solid black;
+}
+.line12 {
+    border-top: 5px solid black;
+    border-left: 2.5px solid black;
+    border-right: 2.5px solid black;
+}
+.line13 {
+    border-right: 2.5px solid black;
+    border-left: 2.5px solid black;
+}
+.line14 {
+    border-top: 5px solid black;
+    border-left: 2.5px solid black;
+    border-right: 2.5px solid black;
+}
+.line15 {
+    border-left: 2.5px solid black;
+    
 }
