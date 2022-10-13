@@ -1,3 +1,7 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body {
     background-color: rgb(13, 186, 230);
 }
@@ -49,12 +53,8 @@ img {
 .line6 {
     border-left: 2.5px solid black;
 }
-#pai {
+.gridcontainer3 img{
     border-radius: 60px;
-    border: 2px solid black;
-    padding: 10px;
-}
-#mae {border-radius: 60px;
     border: 2px solid black;
     padding: 10px;
 }
@@ -62,7 +62,6 @@ img {
     height: 144px;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
 }
 
 .gridcontainer4 {
@@ -83,7 +82,6 @@ img {
 .line10 {
     border-left: 2.5px solid black;
 }
-
 .gridcontainer5 {
     width: 100%;
     height: 40px;
@@ -109,6 +107,30 @@ img {
     border-right: 2.5px solid black;
 }
 .line15 {
-    border-left: 2.5px solid black;
-    
+    border-left: 2.5px solid black;  
+}
+.gridcontainer6 {
+    width:100%;
+    height: 40%;
+    display:flex;
+    justify-content: space-around;
+}
+.items {
+    height: 140px;    
+}
+.materno {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.paterno {
+    width: 30%;
+    display: flex;
+    justify-content:space-between
+}
+.gridcontainer6 img {
+    width: 7rem;
+    border-radius: 60px;
+    border: 2px solid black;
+    padding: 10px;
 }
