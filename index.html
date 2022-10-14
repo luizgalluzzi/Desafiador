@@ -1,19 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
     <title>Árvore Genealógica</title>
 </head>
+
+<script type="text/javascript">
+    function abrirModal() {
+        document.getElementById('modal').style.top = "0";
+    }
+    function fecharModal() {
+        document.getElementById('modal').style.top = "-100%";
+    }
+</script>
+
 <body>
     <header>
         <h1>My Family Tree</h1>
     </header>
     
-    <div id="top">
-        <img src="img/profile.jpg" width="120px" alt="profile" id="top2">    
+    <div class="top">
+        <img src="img/profile.jpg" width="120px" alt="profile" id="top2">
     </div>
     
     <div class="gridcontainer1">
@@ -53,11 +63,19 @@
             <div class="items"><img src="img/vo_materna.jpg" alt="vo_materna" id="vo_materna"></div>
             <div class="items"><img src="img/vo_materno.jpg" alt="vo_materno" id="vo_materno"></div>
         </div>
-            <div class="paterno">
+        <div class="paterno">
             <div class="items"><img src="img/vo_paterna.jpg" alt="vo_paterna" id="vo_paterna"></div>
             <div class="items"><img src="img/vo_paterno.jpg" alt="vo_paterno" id="vo_paterno"></div>
-        
         </div>
     </div>
+
+    <button class="open-modal" onclick="abrirmodal()">Abrir modal</button>
+
+    <div class="bg-modal" #id="modal">
+        <div class="modal">
+            <span class="close" onclick="fecharmodal()">&times;</span>
+        </div>
+    </div>
+
 </body>
 </html>
