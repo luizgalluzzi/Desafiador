@@ -23,7 +23,7 @@
     </header>
     
     <div class="top">
-        <img src="img/profile.jpg" width="120px" alt="profile" id="top2">
+        <img src="img/profile.jpg" width="120px" alt="profile" id="top2" onclick="abrirModal()">
     </div>
     
     <div class="gridcontainer1">
@@ -69,13 +69,31 @@
         </div>
     </div>
 
-    <button class="open-modal" onclick="abrirmodal()">Abrir modal</button>
-
-    <div class="bg-modal" #id="modal">
+    <form>
+        <div class="bg-modal" id="modal">
         <div class="modal">
-            <span class="close" onclick="fecharmodal()">&times;</span>
+            <span class="close" onclick="fecharModal()">&times;</span>
+            <label for="nome"><strong>Nome Completo:</strong></label>
+            <input type="text" nome="nome" id="nome" required>
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" nome="email" id="email" required>
+            <label for="date"><strong>Data de Nascimento</strong></label>
+            <input type="date" nome="date" id="nascimento" required>
+            <label for="date"><strong>Data de Falecimento</strong></label>
+            <input type="date" nome="date" id="falecimento">
+            <label for="nome"><strong>Causa do falecimento:</strong></label>
+            <input type="text" nome="nome" id="causa">
+                <label for="parentesco"><strong>Parentesco</strong></label>
+                <select id="parentesco">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Mãe</option>
+                    <option>Pai</option>
+                    <option>Tios</option>
+                    <option>Primos</option>
+                    <option>Avós</option>
+                </select>
         </div>
-    </div>
+    </form>
 
 </body>
 </html>
